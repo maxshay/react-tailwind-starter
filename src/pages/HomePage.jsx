@@ -14,15 +14,13 @@ function HomePage() {
     <div className="px-4 border border-gray-400 rounded-sm">
       <h1 className="my-4 text-xl">Home Page</h1>
       <Link to="/error">
-        <button className="hover:text-gray-500 underline">
-          error page
-        </button>
+        <button className="hover:text-gray-500 underline">error page</button>
       </Link>
       <br />
       <Link to="/doesNotExist">
         <button className="hover:text-gray-500 underline">404 page</button>
       </Link>
-      <br />/
+      <br />
       <div className="my-4"></div>
     </div>
   );
